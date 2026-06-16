@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alec Kirkley</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Alec Kirkley</a>
+    <a class="nav-link active" href="index.html">About</a>
+    <a class="nav-link" href="pubs.html">Publications</a>
+    <a class="nav-link" href="group.html">Group</a>
+    <a class="nav-link" href="teaching.html">Teaching</a>
+    <a class="nav-link" href="software.html">Software</a>
+    <a class="nav-link" href="files/cv.pdf">CV</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-photo" src="files/avatar.jpg" alt="Alec Kirkley">
+    <div class="hero-body">
+      <div class="hero-name">Alec Kirkley</div>
+      <div class="hero-role">Assistant Professor</div>
+      <div class="hero-org"><a href="https://www.cds.hku.hk/" target="_blank">School of Computing and Data Science</a> &amp; <a href="https://www.arch.hku.hk/staff/upad/kirkley-alec/?dept=upad" target="_blank">Department of Urban Planning and Design</a>, University of Hong Kong</div>
+      <div class="hero-links">
+        <a class="hero-link" href="mailto:akirkley@hku.hk">✉ akirkley@hku.hk</a>
+        <a class="hero-link" href="https://scholar.google.com/citations?user=42b-2NcAAAAJ&hl=en" target="_blank">◎ Google Scholar</a>
+        <a class="hero-link" href="https://github.com/aleckirkley" target="_blank">⌥ GitHub</a>
+        <a class="hero-link" href="https://bsky.app/profile/captainkirk1041.bsky.social" target="_blank">✦ Bluesky</a>
+        <a class="hero-link" href="files/cv.pdf">↓ CV</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2-column info cards -->
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">Research Interests</div>
+      <div class="tag-list">
+        <span class="tag">Network Science</span>
+        <span class="tag">Statistical Physics</span>
+        <span class="tag">Complex Systems</span>
+        <span class="tag">Statistical Inference</span>
+        <span class="tag">Urban Science</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">Education</div>
+      <div style="font-size:13.5px; color:#444; line-height:1.8;">
+        <div><strong>PhD Physics</strong> — U Michigan, 2021</div>
+        <div><strong>MS Physics</strong> — U Michigan, 2018</div>
+        <div><strong>BS Physics, BA Math</strong> — U Rochester, 2017<br><em style="font-size:12px;color:#888">Summa Cum Laude</em></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bio + Selected Pubs -->
+  <div>
+    <div class="section">
+      <h2>About</h2>
+      <p>I am a physicist working on developing new mathematical and computational tools for <a href="https://en.wikipedia.org/wiki/Network_science">network science</a> and <a href="https://en.wikipedia.org/wiki/Statistical_physics">statistical physics</a> to gain a better quantitative understanding of <a href="https://en.wikipedia.org/wiki/Complex_system">complex systems</a>.</p>
+      <p>Currently I am an Assistant Professor at the University of Hong Kong (HKU), hosted by the <a href="https://www.cds.hku.hk/">School of Computing and Data Science</a> and jointly appointed with the <a href="https://www.arch.hku.hk/staff/upad/kirkley-alec/?dept=upad">Department of Urban Planning and Design</a>. I received my PhD in Physics at the University of Michigan in 2021 under the supervision of <a href="http://www-personal.umich.edu/~mejn/">Mark Newman</a>.</p>
+      <p>My current research falls into three main lines:</p>
+      <ol>
+        <li>Developing statistically principled unsupervised learning methods for noisy network data</li>
+        <li>Improving the efficiency and interpretability of network model fitting and evaluation</li>
+        <li>Characterizing heterogeneity and correlations in spatial data with network methods, with an eye towards urban and geographical applications</li>
+      </ol>
+      <p>Most of my research is motivated by the fact that <strong>methodological choices often determine the results of scientific analyses</strong>. Choosing appropriate methods is a particular problem for network science, as it is a relatively young field with no standard accepted set of tools (e.g., for community detection, reconstruction, etc). A solid toolkit for network science must have methods that are:</p>
+      <ul>
+        <li>Founded solely in rigorous modeling and/or scientific principles</li>
+        <li>Robust to the structural and dynamical heterogeneity found within a particular application</li>
+        <li>Completely free (to the extent that it is possible) from any tunable parameters that permit the overfitting of statistical fluctuations and/or enable human aesthetic and scientific confirmation biases through cherry-picking</li>
+        <li>Scalable to large networks</li>
+      </ul>
+      <p>This enables theoretically meaningful, conceptually consistent summaries and comparisons of complex systems while ensuring robustness to statistical fluctuations and flexibility for large datasets. In my research I primarily work on the design, optimization, and analysis of principled methods for inference and unsupervised learning with network data, with the goal of contributing to a network science toolkit that follows the above principles. I sometimes also explore applications to <a href="https://www.nature.com/articles/s42005-022-01029-4">spatial</a> and/or <a href="https://journals.aps.org/pre/abstract/10.1103/tcss-5hn3">time series</a> data, often through the lens of networks. I strongly subscribe to <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's Razor</a>, leading me to prefer simple models as well as <a href="https://www.inference.org.uk/mackay/itprnn/ps/343.355.pdf">Bayesian and information theoretic</a> approaches to inference and learning in my work.</p>
+      <p>I develop new mathematical and computational methods that draw on ideas from a range of disciplines including information theory, statistical physics, Bayesian inference, spatial analysis, scientific computing, and data mining. I believe interdisciplinary thinking and research is essential for broadening the increasingly <a href="https://www.science.org/doi/10.1126/science.1150473">narrow scope</a> of scientific research (despite the challenges it encounters in <a href="https://www.sciencedirect.com/science/article/abs/pii/S1751157723000937">dissemination</a> and <a href="https://www.tandfonline.com/doi/full/10.1080/00221546.2024.2301912">evaluation</a>). I am therefore happy to collaborate with researchers across different fields that are interested in using networks in their research.</p>
+    </div>
+
+    <div class="section">
+      <h2>Selected Publications</h2>
+      <div class="sel-pub">
+        <strong><a href="https://www.science.org/doi/10.1126/sciadv.adw4741" target="_blank">Information theory for hypergraph similarity</a></strong>
+        <span>Science Advances (2026)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/prx/abstract/10.1103/4pg6-mtmt" target="_blank">Fast nonparametric inference of network backbones</a></strong>
+        <span>Physical Review X (2025)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/prl/abstract/10.1103/xrn7-cz8v" target="_blank">Structural reducibility of hypergraphs</a></strong>
+        <span>Physical Review Letters [Editor's Suggestion] (2025)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://arxiv.org/abs/2506.16215" target="_blank">Transfer entropy for finite data</a></strong>
+        <span>Physical Review E [Letter, Editor's Suggestion] (2025)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.033307" target="_blank">Bayesian regionalization of urban mobility networks</a></strong>
+        <span>Physical Review Research (2024)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.034310/" target="_blank">Identifying hubs in directed networks</a></strong>
+        <span>Physical Review E [Editor's Suggestion] (2024)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.024309" target="_blank">Implicit models, latent compression, intrinsic biases, and cheap lunches in community detection</a></strong>
+        <span>Physical Review E (2023)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://www.nature.com/articles/s42005-022-01029-4" target="_blank">Spatial regionalization based on optimal information compression</a></strong>
+        <span>Communications Physics (2022)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://advances.sciencemag.org/content/7/17/eabf1211" target="_blank">Belief propagation for networks with loops</a></strong>
+        <span>Science Advances (2021)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043212" target="_blank">Information theoretic network approach to socioeconomic correlations</a></strong>
+        <span>Physical Review Research (2020)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.012320" target="_blank">Balance in signed networks</a></strong>
+        <span>Physical Review E (2019)</span>
+      </div>
+      <div class="sel-pub">
+        <strong><a href="https://www.nature.com/articles/s41467-018-04978-z" target="_blank">From the betweenness centrality in street networks to structural invariants in random planar graphs</a></strong>
+        <span>Nature Communications (2018)</span>
+      </div>
+      <p style="margin-top:14px; font-size:13px;"><a href="pubs.html">→ Full publication list</a></p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
